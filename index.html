@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Teste - vaga front end</title>
+    
+    <meta charset=UTF-8> <!-- ISO-8859-1 -->
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <meta name=description content="teste de front end">
+    <meta name=keywords content="teste"> <!-- Opcional -->
+    <meta name=author content='Vinícius Araújo'>
+    
+    <!-- favicon, arquivo de imagem podendo ser 8x8 - 16x16 - 32x32px com extensão .ico -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+    
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="css/style480.css">
+    <link rel="stylesheet" media="screen and (min-width:481px) and (max-width:768px)" href="css/style768.css">
+    <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1024px)" href="css/style1024.css">
+    
+    <!--NIVO SLIDER-->
+    <link rel="stylesheet" href="_lib/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+</head>
+<body>
+    
+    <header class="container">
+        <div>
+            <span>
+                <a href="tel:+551112345678" title="Telefone 1">11 1234-5678</a>
+                <a href="tel:+551112345678" title="Telefone 2">11 1234-5678</a>
+            </span>
+        </div>
+        
+        
+        <div>
+            <a href="https://soscidadao.online/" target="_blank"><img src="https://soscidadao.online/view/imagens/logo_oficial.png" alt="logo" title="logo"></a>
+        </div>
+        
+        <nav>
+            
+            <label for="menuPrincipal">▾</label>
+            <input type="checkbox" id="menuPrincipal">
+            <ul>
+                <li>
+                    <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                    <a href="#" id="empresa" title="Empresa">Empresa
+                        <label for="menu1">▾</label>
+                    </a>
+                    <input type="checkbox" id="menu1">
+                    <ul class="menu">
+                        <li><a href="#" title="submenu 1">submenu 1</a></li>
+                        <li><a href="#" title="submenu 2">submenu 2</a></li>
+                        <li><a href="#" title="submenu 3">submenu 3 </a></li>
+                        <li>
+                            <a href="#" title="submenu 4">submenu 4
+                                <label for="submenu1">▾</label>
+                            </a>
+                            
+                            
+                            <input type="checkbox" id="submenu1">
+                            <ul class="submenu">
+                                <li><a href="#" title="submenu 1">submenu 1</a></li>
+                                <li><a href="#" title="submenu 2">submenu 2</a></li>
+                                <li><a href="#" title="submenu 3">submenu 3</a></li>
+                                <li><a href="#" title="submenu 4">submenu 4</a></li>
+                            </ul>
+                            
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" title="Clientes">
+                        Clientes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+            
+            
+            
+            
+        </nav>
+    </header>
+    <section class="slide">
+        <div id="wrapper" class="slide-top">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider"> 
+                    <img src="_lib/nivo-slider/demo/images/toystory.jpg" data-thumb="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" />
+                    
+                    <img src="_lib/nivo-slider/demo/images/walle.jpg" data-thumb="_lib/nivo-slider/demo/images/walle.jpg" alt="walle" data-transition="slideInLeft" />
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </section>
+    <main class="container">
+        <section class="info">
+            <div>
+                <h1>Teste de html 5</h1>
+                <p>Quesitos da avaliação</p>
+                <ul>
+                    <li>Organização do código (quanto mais limpo melhor);</li>
+                    <li>Nível de detalhismo (quanto mais idêntico melhor);</li>
+                    <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li>
+                </ul>
+                <p>Obrigado e boa sorte!</p>
+            </div>
+            <div>
+                <div>
+                    <img src="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" title="toystory">
+                </div>
+            </div>
+        </section>
+        <section class="destaques">
+            <h1>Boxes de destaque</h1>
+            <div>
+                <a class="item" href="#" title="pagina tal">
+                    <div>
+                        <img src="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" >
+                    </div>
+                    <p>Um texto descritivo com link apenas</p>
+                </a>
+                <a class="item" href="#" title="pagina tal">
+                    <div>
+                        <img src="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" >
+                    </div>
+                    <p>Um texto descritivo com link apenas</p>
+                </a>
+                <a class="item" href="#" title="pagina tal">
+                    <div>
+                        <img src="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" >
+                    </div>
+                    <p>Um texto descritivo com link apenas</p>
+                </a>
+                <a class="item" href="#" title="pagina tal">
+                    <div>
+                        <img src="_lib/nivo-slider/demo/images/toystory.jpg" alt="toystory" >
+                    </div>
+                    <p>Um texto descritivo com link apenas</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#empresa" title="Empresa">Empresa</a></li>
+                <li><a href="#" title="Clientes">Clientes</a></li>
+                <li><a href="#" title="Contato">Contato</a></li>
+            </ul>
+        </nav>
+        <p><b>RODAPE</b></p>
+    </footer>
+    
+    
+    
+    <script src="_lib/nivo-slider/demo/scripts/jquery-1.7.1.min.js"></script> 
+    <script type="text/javascript" src="_lib/nivo-slider/jquery.nivo.slider.js"></script> 
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 4000, // How long each slide will show
+                startSlide: 0, // Set starting Slide (0 index)
+                directionNav: false, // Next & Prev navigation
+                controlNav: false, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: false // Stop animation while hovering      
+            });
+        });
+    </script> 
+</body>
+</html>

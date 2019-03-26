@@ -1,0 +1,119 @@
+body{
+
+  
+}
+
+header div:first-child{
+    height: 50px;
+  
+}
+
+
+header div:first-child span{
+    margin-right: 0;
+    width:100%;
+    text-align:center
+}
+
+header div:first-child a{
+ 
+    
+    margin: 0 20px
+}
+
+
+header div:first-child + div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+header div:first-child + div img{
+    align-self: center
+}
+
+header nav{
+    width: 100%
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header nav ul li{
+    width: 100%;
+    height: auto;
+}
+
+header nav label{
+    width:100%
+}
+
+header nav .menu{
+    display: none;
+    position: initial;
+    top: initial;
+    width: 100%;
+    
+}
+
+header nav ul li a {
+    height: auto;
+}
+
+header nav .menu li a{
+
+
+
+}
+
+
+
+header nav .submenu{
+    display: none;
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.info h1{
+    text-align: center
+}
+
+.info div{
+    width: 100%;
+   
+}
+
+.slide-top{
+  
+    height: 150px;
+  
+}
+
+
+.info > div:first-child {
+    width: 90%;
+    
+}
+
+.info div div{
+    left: 0;
+}
+
+.destaques h1{
+    text-align: center
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding: 10px
+}
